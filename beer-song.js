@@ -1,3 +1,6 @@
+
+// errore di sintassi: unexpected identifier
+
 var BeerSong = function() {
 
   var nessuna = "No more bottles of beer on the wall, no more bottles of beer.\n" +
