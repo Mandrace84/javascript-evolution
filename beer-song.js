@@ -18,7 +18,7 @@ var BeerSong = function() {
 
   return {
 
-    function strofa (num) {;
+    strofa: function (num) {;
       if (output[num] ===  undefined) {
         return (num);
       } else {
@@ -26,7 +26,7 @@ var BeerSong = function() {
       }
     },
 
-    function canzone () {
+    canzone: function  () {
       
       var result = []
       for (i = 99; i >= 0; i--) {
