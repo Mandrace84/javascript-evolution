@@ -12,15 +12,15 @@ var API_KEY = '';
 var mailchimp = new Mailchimp(API_KEY);
 
 mailchimp.get({
-    path : '/campaigns/?483861&fields'
+    path : '/campaigns/a6ae2485a7'
 })
     .then(function (result) {
 		
-	fs.writeFile ('c:\test.json', result.campaigns);
+	fs.writeFile ('c:\test.json', result);
 		
 	requireJson('c:\test.json');
  
-    parseJson();
+    	parseJson();
 
 })	
 		
