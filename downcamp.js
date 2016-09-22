@@ -16,7 +16,7 @@ mailchimp.get({
 })
     .then(function (result) {
 		
-	fs.writeFile ('c:\test.json', result);
+	fs.writeFile ('c:\test.json', JSON.stringify(result));
 		
 	requireJson('c:\test.json');
  
