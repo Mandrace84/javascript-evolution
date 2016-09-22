@@ -3,6 +3,8 @@ var Mailchimp = require('mailchimp-api-v3');
 
 var fs = require ('fs');
 
+var config = require ('config');
+
 var parseJson = require('node-json').parse;
 
 var requireJson = require('node-json').require;
